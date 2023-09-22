@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: "Droid";
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format("opentype");
+    /*
+    Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - trutype-aat (Apple Advanced Typography)
+    - svg
+    */
+}
+:root{
+    --cor1: #c5ebd6;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+}
+body{
+    background-color: #84e1ad;
+    margin: 0px;
+}
+header{
+    background-image: linear-gradient(To Bottom,#3cdb83, #1a5c37);
+    margin: 0px;
+    padding-top: 8px;
+    color: white;
+}
+nav{
+    background-color: #1a5d37;
+    margin: 0px;
+    padding: 10px;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 10px;
+}
+nav > a:hover{
+    background-color: #3cdb83;
+}
+#titulo1{
+    font-family: "Droid", Times;
+    font-size: 2em;
+}
+header > h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+}
+header > p{
+    margin: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+h1, h2 {
+    color: #1a5d37;
+}
+h2 {
+    font-family: "Droid", Times;
+    background-color: #84e1ac9d;
+}
+main{
+    margin: 0px 12%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 0px 0px 10px 10px;
+}
+p{
+    text-align: justify;
+}
+footer{
+    background-color: #1a5d37;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}

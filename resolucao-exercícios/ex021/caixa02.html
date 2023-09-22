@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grouping Tags </title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(102,102,102);
+            padding: 3px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.447);
+            /*box shadow: 1px 2px 3px black
+                1px   = espalhamento horizontal
+                2px   = espalhamento vertical
+                3px   = blur
+                black = cor
+            */
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.450);
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçado do site -->
+    <header>
+        <h1> Meu site </h1>
+        <nav>
+            <a href="#"> Link 1 </a>
+            <a href="#"> Link 2 </a>
+            <a href="#"> Link 3 </a>
+            <a href="#"> Link 4 </a>
+            <a href="#"> Link 5 </a>
+        </nav>
+    </header>
+    
+    <!-- Corpo principal do site -->
+    <main>
+        <section id="assuntos">
+            <p> Esportes Política Tecnologia </p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2> Notícia sobre o Brasil </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque neque quaerat suscipit consequatur. Iste repellat obcaecati dolorem. Alias, harum nemo labore sit at inventore officiis quae, dolores veniam in exercitationem. </p>
+                <aside>
+                    <p> Artigo escrito por José da Silva </p>
+                </aside>
+            </article>
+            
+            <article>
+
+            </article>
+        </section>
+    </main>
+    
+    <!-- Rodapé do site -->
+    <footer>
+        <p>Desenvolvido por Curso em Vídeo</p>
+    </footer>
+</body>
+</html>

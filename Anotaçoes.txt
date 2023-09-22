@@ -1,0 +1,26 @@
+Domínio: Nome do site 
+Hospedagem: Serviço usado pra armazenar o site
+
+http://www.github.com/gustavoguanabara - (URL)
+github.com - (dominio)
+.com (TLD - Top Level Domain)
+www (sub-domínio)
+gustavoguanabara (caminho)
+http (protocolo)
+
+HTML é uma linguagem focada em conteúdo. Texto, imagem, listas e etc
+CSS é uma linguagem focada em design. Cores, sombras, tamanho, posicionamento e etc
+Javascript é uma linguagem focada em interatividade. menus, animações, popups, validações e etc
+
+Cada lingua de código em uma classe do CSS é uma declaração. Declarações são propriedades e valores
+
+FRONT-END, BACK-END, FULLSTACK
+
+HTML, CSS, JS - Client Side (Front-end){O navegador é responsável por interpretar o site, sendo este um site estático}
+PHP, NodeJS, C#, Python, Ruby, Java -  Server Side (Back-end){O servidor é quem interpreta o site, o site é mais inteligente, pois usa dados do servidor pra montar a página, página dinâmica}
+
+Fullstack (Front-end e Back-end) 
+
+Usar o GIMP para redimensionar imagens é muito útil. Reduzindo a qualidade para 70% podemos reduzir significativamente o tamanho em KB da imagem, o que torna o site mais leve
+
+Rever a aula 22 até a 24 (capítulo 8) / para rever formatações de texto 
